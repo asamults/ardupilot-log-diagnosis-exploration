@@ -1,0 +1,7 @@
+# Core exploratory repository intentionally keeps hard runtime dependencies minimal.
+# Install optional DataFlash parsing support only when the project commits to that path.
+# Example:
+# pip install -r requirements.txt
+# pip install .[log-parsing]
+
+# No mandatory third-party runtime dependencies yet.
