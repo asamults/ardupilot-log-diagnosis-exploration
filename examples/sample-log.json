@@ -1,0 +1,30 @@
+{
+  "vehicle_type": "copter",
+  "firmware": "ArduCopter 4.5-dev",
+  "parameters": [
+    {
+      "name": "INS_GYRO_FILTER",
+      "value": 20,
+      "source": "log"
+    },
+    {
+      "name": "PSC_ACCZ_P",
+      "value": 0.5,
+      "source": "log"
+    }
+  ],
+  "events": [
+    {
+      "timestamp_s": 0.5,
+      "event_type": "EKF_WARNING",
+      "severity": "warning",
+      "message": "variance high"
+    },
+    {
+      "timestamp_s": 1.3,
+      "event_type": "GPS_GLITCH",
+      "severity": "warning",
+      "message": "position jump detected"
+    }
+  ]
+}
